@@ -25,6 +25,15 @@ $("#userChoice").text(userChoice);
         }
 
 $("#computerChoice").text(computerChoice);
+    if(computerChoice==="rock" && userChoice==="rock"){
+        $("#result").text("draw");
+        }
+    else if (computerChoice==="paper" && userChoice==="paper"){
+        $("#result").text("draw");
+    }
+    else if (computerChoice==="scissors" && userChoice==="scissors"){
+        $("#result").text("draw");
+    }
+
     
 });
-
